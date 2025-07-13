@@ -7,11 +7,31 @@
 }
 
 .App-header {
-  background-color: #4CAF50;
-  padding: 20px;
-  color: white;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 12px 24px 8px 24px;
+  color: #1ee04b;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  margin: 24px auto 12px auto;
+  box-shadow: 0 4px 16px 0 rgba(44, 62, 80, 0.08);
+  max-width: 420px;
+}
+
+.App-header h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 4px 0;
+  letter-spacing: 0.5px;
+}
+
+.App-header h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  color: #1ee04b;
+  opacity: 0.85;
 }
 
 .chat-window {

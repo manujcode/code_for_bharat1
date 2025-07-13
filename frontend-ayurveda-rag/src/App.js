@@ -92,7 +92,8 @@ function App() {
       flexDirection: 'column'
     }}>
       <header className="App-header">
-        <h1>Ayurveda RAG Chat</h1>
+        <h1>🌿 AyurSamvad </h1>
+        <h2>Your personalized Ayurveda assistant</h2>
       </header>
       <div className="chat-window" style={{
         backgroundColor: 'transparent',
