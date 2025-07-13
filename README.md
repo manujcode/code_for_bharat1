@@ -102,7 +102,15 @@ npm install
 npm start
 ```
 The frontend will be available at `http://localhost:3000`.
+**3. Lockal Setup**
+```bash
+# Open a new terminal 
+docker run -p 6333:6333 -v $(pwd) /qdrant_data:/qdrant/storage qdrant/qdrant
 
+# Install ollama,mistral llm on local machine
+
+```
+The frontend will be available at `http://localhost:3000`.
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to open an issue or submit a pull request.
